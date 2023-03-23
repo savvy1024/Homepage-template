@@ -8,13 +8,13 @@ function Header({ title }) {
   return (
     <div>
       <header className='flex justify-center w-full'>
-        <div className='group container flex justify-between items-center px-8 pt-10 pb-10 w-full'>
+        <div className='group container max-w-[1280px] flex justify-between items-center px-8 pt-10 pb-10 w-full'>
           <div>
             <img className='w-40 md:w-60 lg:w-80' src={logo} alt='logo' />
           </div>
 
           <nav className=' my-auto     '>
-            <ul className='group-hover:flex absolute left-1 top-[6.05rem] z-10 hidden w-full flex-col items-center justify-center text-lg font-bold px-3 shadow-md md:static md:flex md:w-auto md:flex-row md:space-y-0 md:space-x-4 md:shadow-none '>
+            <ul className='group-hover:flex absolute bg-gray-300 left-0 top-[6.05rem] z-10 hidden w-full flex-col items-center justify-center text-lg font-bold px-3 shadow-md md:static md:flex md:w-auto md:flex-row md:space-y-0 md:space-x-4 md:shadow-none '>
               <li>
                 <a href='#'>Home</a>
               </li>
@@ -35,8 +35,9 @@ function Header({ title }) {
 
           <div className='md:hidden'>
             <button
-              onclink={() => {
+              onClick={() => {
                 setHamberg(!hamberg);
+                console.log(hamberg);
               }}
             >
               <svg
