@@ -2,7 +2,7 @@ import Header from "./components/Header.js";
 
 function App() {
   return (
-    <div className='bg-blue-200'>
+    <div>
       <Header title='Hello World' />
     </div>
   );
