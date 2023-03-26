@@ -14,7 +14,7 @@ function Header({ title }) {
           </div>
 
           <nav className=' my-auto     '>
-            <ul className='group-hover:flex absolute bg-gray-300 left-0 top-[6.05rem] z-10 hidden w-full flex-col items-center justify-center text-lg font-bold px-3 shadow-md md:static md:flex md:w-auto md:flex-row md:space-y-0 md:space-x-4 md:shadow-none '>
+            <ul className='group-hover:flex group-hover:bg-white absolute left-0 top-[6.05rem] z-10 hidden w-full flex-col items-center justify-center text-lg  px-3 shadow-md md:static md:flex md:w-auto md:flex-row md:space-y-0 md:space-x-4 md:shadow-none '>
               <li>
                 <a href='#'>Home</a>
               </li>
