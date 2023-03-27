@@ -32,14 +32,14 @@ const Bestselling = () => {
   ];
 
   return (
-    <div>
-      <div className='flex '>
-        <h1>Best selling</h1>
+    <div className="container mx-auto my-20 max-w-1280 ">
+      <div className='flex flex-row justify-between '>
+        <h1 className="text-3xl font-headLines font-bold mb-5">Best selling</h1>
         <a href=''>
-          <button>more Products</button>
+          <button className="bg-primaryYellow hover:bg-secondaryPink text-black font-bold py-2 px-4 rounded">more Products</button>
         </a>
       </div>
-      <div className='container mx-auto my-20 max-w-1280 flex flex-col justify-around items-center space-x-6 flex-nowrap md:flex-row '>
+      <div className='flex flex-col justify-around items-center space-x-6 flex-nowrap md:flex-row '>
         {umbrella.map((umbrella) => {
           return <SpecialCard umbrella={umbrella} key={umbrella.name} />;
         })}

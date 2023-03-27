@@ -12,7 +12,7 @@ const SpecialCard = ({ umbrella }) => {
           alt={umbrella.name}
         />
       </div>
-      <div className="mt-5 mx-5 h-60 bg-blue-200">
+      <div className="mt-5 mx-5 h-48">
         <div class='flex flex-row justify-between'>
           <h1 className='text-2xl font-bold font-headLines'>{umbrella.name}</h1>
           <span className='text-red-500 font-parragrap'>{umbrella.price}</span>
@@ -20,10 +20,11 @@ const SpecialCard = ({ umbrella }) => {
         <div className='text-sm font-parragrap text-secondary4 mt-5 h-24 '>
           <p>{umbrella.description}</p>
         </div>
-        <dir className='text-lg'>
-          <a href={umbrella.link}>Order a delivery (svg 图标)</a>
-        </dir>
+        
       </div>
+      <div className='text-lg items-center my-5'>
+          <a href={umbrella.link}>Order a delivery (svg 图标)</a>
+        </div>
     </div>
   );
 };
