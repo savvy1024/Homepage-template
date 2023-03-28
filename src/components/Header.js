@@ -7,7 +7,7 @@ function Header({ title }) {
 
   return (
     <div>
-      <header className='flex justify-center w-full'>
+      <header className='flex justify-center w-full '>
         <div className='group container max-w-[1280px] flex justify-between items-center px-8 pt-10 pb-10 w-full'>
           <div>
             <img className='w-40 md:w-60 lg:w-80' src={logo} alt='logo' />

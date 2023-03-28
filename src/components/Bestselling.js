@@ -5,6 +5,7 @@ import SpecialCard from "./SpecialCard";
 import StickUmbrella from "../asset/products/3039/3039-1-1000.jpg";
 import TransparentUmbrella from "../asset/products/3084/3084-1-1000.jpg";
 import GolfUmbrella from "../asset/products/1891/1891-5-1000.jpg";
+import FoldUmbrellaPolo from "../asset/products/3014/3014-Automatic-umbrella-wood handle-4-1000.jpg";
 
 const Bestselling = () => {
   const umbrella = [
@@ -29,17 +30,33 @@ const Bestselling = () => {
       description:
         "Golf umbrella with strong windproof system, and big size up to 130cm diameter under umbrella..",
     },
+    {
+        name: "Polo Claasic Umbrella",
+        image: FoldUmbrellaPolo,
+        price: "$25.99",
+        description:
+          "Polo Claasic Umbrella is a big size automatic folding umbrella. White fabric with blue strip around the edges. Classic woldren crook handle.",
+      },
+      {
+        name: "Polo Claasic Umbrella",
+        image: FoldUmbrellaPolo,
+        price: "$25.99",
+        description:
+          "Polo Claasic Umbrella is a big size automatic folding umbrella. White fabric with blue strip around the edges. Classic woldren crook handle.",
+      },
   ];
 
   return (
-    <div className="container mx-auto my-20 max-w-1280 ">
-      <div className='flex flex-row justify-between '>
-        <h1 className="text-3xl font-headLines font-bold mb-5">Best selling</h1>
+    <div className='container mx-auto my-20 max-w-[1280px]'>
+      <div className='flex flex-row justify-between p-10'>
+        <h1 className='text-5xl font-headLines font-bold mb-5'>Best selling</h1>
         <a href=''>
-          <button className="bg-primaryYellow hover:bg-secondaryPink text-black font-bold py-2 px-4 rounded">more Products</button>
+          <button className='bg-primaryYellow hover:bg-secondaryPink text-black font-bold py-2 px-4 rounded'>
+            more Products
+          </button>
         </a>
       </div>
-      <div className='flex flex-col justify-around items-center space-x-6 flex-nowrap md:flex-row '>
+      <div className='grid md:grid-cols-3 gap-10 place-items-center '>
         {umbrella.map((umbrella) => {
           return <SpecialCard umbrella={umbrella} key={umbrella.name} />;
         })}
