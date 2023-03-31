@@ -1,4 +1,5 @@
-import heroimg from "../asset/products/3061-1-1000.jpg";
+import FactoryOne from "../asset/factory/RD-100.jpg";
+import FactoryTwo from "../asset/factory/2017-08-08 5-1000.jpg";
 
 const AboutUs = () => {
   return (
@@ -12,14 +13,18 @@ const AboutUs = () => {
             own umbrella brand, also we can do OEM / ODM business.
           </p>
         </div>
-        <div className=' mx-auto md:mr-0'>
+        <div className='relative  w-full h-[400px]'>
           <img
-            className='w-[400px] rounded-md mb-10 mt-10 mr-10 '
-            src={heroimg}
+            className='w-[300px] rounded-md  absolute top-24 left-[20%]'
+            src={FactoryOne}
+            alt='hero'
+          />
+          <img
+            className='w-[300px] rounded-md absolute right-24 '
+            src={FactoryTwo}
             alt='hero'
           />
         </div>
-        <div></div>
       </div>
     </div>
   );

@@ -13,7 +13,7 @@ function Header({ title }) {
             <img className='w-40 md:w-60 lg:w-80' src={logo} alt='logo' />
           </div>
 
-          <nav className=' my-auto     '>
+          <nav className=' my-auto'>
             <ul className='group-hover:flex group-hover:bg-white absolute left-0 top-[6.05rem] z-10 hidden w-full flex-col items-center justify-center text-lg  px-3 shadow-md md:static md:flex md:w-auto md:flex-row md:space-y-0 md:space-x-4 md:shadow-none '>
               <li>
                 <a href='#'>Home</a>
