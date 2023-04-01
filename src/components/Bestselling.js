@@ -1,6 +1,5 @@
 // creat a Bestselling component import the Specialcard component using the Map method to list all the products in an array
 import React from "react";
-import { Link } from "react-router-dom";
 import SpecialCard from "./SpecialCard";
 import StickUmbrella from "../asset/products/3039/3039-1-1000.jpg";
 import TransparentUmbrella from "../asset/products/3084/3084-1-1000.jpg";
@@ -50,7 +49,7 @@ const Bestselling = () => {
     <div className='container mx-auto my-20 max-w-[1280px]'>
       <div className='flex flex-row justify-between p-10'>
         <h1 className='text-5xl font-headLines font-bold mb-5'>Best selling</h1>
-        <a href=''>
+        <a href='#more'>
           <button className='bg-primaryYellow hover:bg-secondaryPink text-black font-bold py-2 px-4 rounded'>
             more Products
           </button>

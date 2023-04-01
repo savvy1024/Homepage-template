@@ -1,6 +1,5 @@
 //create a component to show product's name, picture, description and link
 import React from "react";
-import { Link } from "react-router-dom";
 import { faMotorcycle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

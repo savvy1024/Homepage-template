@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="">
             <ul className='flex flex-col'>
               <li>
-                <a href='#'>Home</a>
+                <a href='#home'>Home</a>
               </li>
               <li>
                 <a href='#about'>About</a>
@@ -26,7 +26,7 @@ const Footer = () => {
                 <a href='#blog'>Blog</a>
               </li>
               <li>
-                <a href='#'>Contact</a>
+                <a href='#contact'>Contact</a>
               </li>
             </ul>
             </div>

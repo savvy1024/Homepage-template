@@ -1,4 +1,3 @@
-//creat a components by React, name: Header, props: {title: string}
 import logo from "../asset/logo-small.png";
 import { useState } from "react";
 
@@ -16,7 +15,7 @@ function Header({ title }) {
           <nav className=' my-auto'>
             <ul className='group-hover:flex group-hover:bg-white absolute left-0 top-[6.05rem] z-10 hidden w-full flex-col items-center justify-center text-lg  px-3 shadow-md md:static md:flex md:w-auto md:flex-row md:space-y-0 md:space-x-4 md:shadow-none '>
               <li>
-                <a href='#'>Home</a>
+                <a href='#home'>Home</a>
               </li>
               <li>
                 <a href='#about'>About</a>
@@ -28,7 +27,7 @@ function Header({ title }) {
                 <a href='#blog'>Blog</a>
               </li>
               <li>
-                <a href='#'>Contact</a>
+                <a href='#contact'>Contact</a>
               </li>
             </ul>
           </nav>
