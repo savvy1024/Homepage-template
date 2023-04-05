@@ -14,40 +14,41 @@ const Bestselling = () => {
       price: "$19.99",
       description:
         "Convenient automatic function for quick opening, windproof with fiberglass ribs, Sturdy steel shaft, with all parts match colors. ",
-    },
+    
+     hidden:false  },
     {
       name: "Transparent Umbrella",
       image: TransparentUmbrella,
       price: "$15.99",
       description:
         "The Canopy Umbrella has a see-through dome of waterproof POE fabric and black handle and trim for good protection in wet weather.",
-    },
+        hidden:false},
     {
       name: "Transparent Umbrella",
       image: GolfUmbrella,
       price: "$15.99",
       description:
         "Golf umbrella with strong windproof system, and big size up to 130cm diameter under umbrella..",
-    },
+        hidden:true},
     {
         name: "Polo Claasic Umbrella",
         image: FoldUmbrellaPolo,
         price: "$25.99",
         description:
           "Polo Claasic Umbrella is a big size automatic folding umbrella. White fabric with blue strip around the edges. Classic woldren crook handle.",
-      },
+          hidden:false},
       {
         name: "Polo Claasic Umbrella",
         image: FoldUmbrellaPolo,
         price: "$25.99",
         description:
           "Polo Claasic Umbrella is a big size automatic folding umbrella. White fabric with blue strip around the edges. Classic woldren crook handle.",
-      },
+          hidden:true},
   ];
 
   return (
-    <div className='container mx-auto my-20 max-w-[1280px]'>
-      <div className='flex flex-row justify-between p-10'>
+    <div className='container mx-auto my-20 max-w-[1280px] px-8'>
+      <div className='flex flex-row justify-between py-10'>
         <h1 className='text-5xl font-headLines font-bold mb-5'>Best selling</h1>
         <a href='#more'>
           <button className='bg-primaryYellow hover:bg-secondaryPink text-black font-bold py-2 px-4 rounded'>

@@ -4,7 +4,7 @@ const Hero=()=>{
     return(
        <div className="bg-primaryGreen">
        <div className='container max-w-[1280px] m-auto  flex flex-col justify-between items-center text-center md:flex-row md:text-left'> 
-            <div className='py-10 px-10 m-auto md:m-0'>
+            <div className='py-10 px-8 m-auto md:m-0'>
                 <h1 className='text-3xl font-headLines text-primaryYellow'>
                     YiYi Trade </h1>
                 <h2 className='text-2xl mt-5 font-parragrap text-white'>Chicago</h2>

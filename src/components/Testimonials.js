@@ -44,12 +44,12 @@ const Tesimonials = () => {
   ];
 
   return (
-    <div className=" bg-primaryYellow place-contents-center ">
-    <div className='container mx-auto my-20 max-w-[1280px]'>
+    <div className=" bg-primaryYellow place-contents-center">
+    <div className='container mx-auto my-20 max-w-[1280px] px-8'>
       <div>
         <h1 className='text-5xl font-headLines font-bold mb-5 text-center py-10'>Testimonials</h1>
 
-        <div className='w-full grid md:grid-cols-4 gap-5  place-items-center pb-10'>
+        <div className='w-full grid md:grid-cols-4 gap-5  place-items-center pb-10 px-8'>
           {feedback.map((feedback) => {
             return <TesimonialsCard feedback={feedback} key={feedback.name} />;
           })}
