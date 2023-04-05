@@ -1,3 +1,3 @@
 A Home Page using React and TailwindCSS.
 
-![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+![Preview Image](https://github.com/savvy1024/Homepage-template/blob/main/src/Preview%20image.png)
